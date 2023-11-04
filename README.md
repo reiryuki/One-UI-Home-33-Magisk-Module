@@ -1,11 +1,11 @@
-# One UI Home 6 Magisk Module
+# One UI Home 33 Magisk Module
 
 ## DISCLAIMER
 - One UI apps and blobs are owned by Samsung™.
 - The MIT license specified here is for the Magisk Module only, not for One UI apps and blobs.
 
 ## Descriptions
-- Home launcher app by Samsung Electronics Co., Ltd. ported from One UI 6 and integrated as a Magisk Module for all supported and rooted devices with Magisk
+- Home launcher app by Samsung Electronics Co., Ltd. ported and integrated as a Magisk Module for all supported and rooted devices with Magisk
 
 ## Sources
 - https://apkmirror.com com.sec.android.app.launcher, com.samsung.android.rubin.app, com.samsung.android.app.galaxyfinder, & com.sec.android.provider.badge by Samsung Electronics Co., Ltd.
@@ -18,12 +18,11 @@
 - NOT in One UI nor Touchwiz ROM
 - Android 13 and up
 - Magisk or KernelSU installed
-- One UI Core Magisk Module v0.3 or above installed https://github.com/reiryuki/One-UI-Core-Magisk-Module
+- One UI Core Magisk Module v0.4 or above installed https://github.com/reiryuki/One-UI-Core-Magisk-Module
 - Add media page to Home screen option requires Google app installed https://play.google.com/store/apps/details?id=com.google.android.googlequicksearchbox or ported Samsung News/Free/Daily/Bixby Home app (com.samsung.android.app.spage) if it's exist.
-- Recents provider requires Android 14 and up
 
 ## Installation Guide & Download Link
-- Install One UI Core Magisk Module v0.3 or above first: https://github.com/reiryuki/One-UI-Core-Magisk-Module
+- Install One UI Core Magisk Module v0.4 or above first: https://github.com/reiryuki/One-UI-Core-Magisk-Module
 - If you want to activate the recents provider, READ Optionals bellow!
 - Install this module https://www.pling.com/p/2100614/ via Magisk app or KernelSU app or Recovery if Magisk installed
 - Reboot
@@ -34,6 +33,9 @@
 
 ## Tested on
 - Android 13 CrDroid ROM
+
+## Known Issue
+- Task activities does not appear in the recents provider (I don't know why)
 
 ## Optionals & Troubleshootings
 - https://t.me/androidryukimodsdiscussions/46153

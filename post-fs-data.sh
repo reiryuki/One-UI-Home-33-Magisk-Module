@@ -48,9 +48,6 @@ sepolicy_sh
 # list
 (
 PKGS="`cat $MODPATH/package.txt`
-      com.sec.android.app.launcher:AppsEdge
-      com.sec.android.app.launcher:cocktailsettings
-      com.sec.android.app.launcher:settingui
       com.samsung.android.app.galaxyfinder:receiver
       com.samsung.android.app.galaxyfinder:local
       com.samsung.android.app.galaxyfinder:appservice"
@@ -82,6 +79,7 @@ DIRS=`find $MODPATH/vendor\
 for DIR in $DIRS; do
   chown 0.2000 $DIR
 done
+chcon -R u:object_r:system_lib_file:s0 $MODPATH/system/lib*
 if [ -L $MODPATH/system/product ]\
 && [ -d $MODPATH/product ]; then
   chcon -R u:object_r:vendor_overlay_file:s0 $MODPATH/product/overlay
