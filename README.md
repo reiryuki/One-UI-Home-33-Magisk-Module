@@ -12,7 +12,7 @@
 - BadgeSettings.apk by frknkrc44
 
 ## Screenshots
-- https://t.me/androidryukimods/310
+- https://t.me/androidryukimods/1503
 
 ## Requirements
 - NOT in One UI nor Touchwiz ROM
@@ -24,7 +24,7 @@
 ## Installation Guide & Download Link
 - Install One UI Core Magisk Module v0.4 or above first: https://github.com/reiryuki/One-UI-Core-Magisk-Module
 - If you want to activate the recents provider, READ Optionals bellow!
-- Install this module https://www.pling.com/p/2100614/ via Magisk app or KernelSU app or Recovery if Magisk installed
+- Install this module https://www.pling.com/p/2103361/ via Magisk app or KernelSU app or Recovery if Magisk installed
 - Reboot
 - If you are using KernelSU, you need to allow superuser list manually all package name listed in package.txt (and your home launcher app also) (enable show system apps) and reboot after
 - Change your default home to this launcher via Settings app
