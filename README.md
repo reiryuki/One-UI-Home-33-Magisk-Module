@@ -8,7 +8,7 @@
 - Home launcher app by Samsung Electronics Co., Ltd. ported and integrated as a Magisk Module for all supported and rooted devices with Magisk
 
 ## Sources
-- https://apkmirror.com com.sec.android.app.launcher, com.samsung.android.rubin.app, com.samsung.android.app.galaxyfinder, & com.sec.android.provider.badge by Samsung Electronics Co., Ltd.
+- https://apkmirror.com com.sec.android.app.launcher (target SDK 33), com.samsung.android.rubin.app, com.samsung.android.app.galaxyfinder, & com.sec.android.provider.badge by Samsung Electronics Co., Ltd.
 - BadgeSettings.apk by frknkrc44
 
 ## Screenshots
