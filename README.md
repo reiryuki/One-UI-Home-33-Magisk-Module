@@ -23,6 +23,8 @@
 - Gesture navigation requires android.permission.INJECT_EVENTS. The permission can only be granted in AOSP signatured ROM or disabled Android Signature Verification in Android 13 and bellow.
 
 ## Installation Guide & Download Link
+- Remove any other else One UI Home Magisk module with different name (no need to remove if it's the same name)
+- Reboot
 - Install One UI Core Magisk Module first: https://github.com/reiryuki/One-UI-Core-Magisk-Module
 - If you want to activate the recents provider, READ Optionals bellow!
 - Install this module https://www.pling.com/p/2103361/ via Magisk app or KernelSU app or Recovery if Magisk installed
