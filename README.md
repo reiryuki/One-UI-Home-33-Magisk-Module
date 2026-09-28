@@ -14,6 +14,10 @@
 
 ## Changelog
 
+v2.5
+- Fix crashes NullPointerException
+- Prepare /storage/emulated/"$UID"/Android/data/$PKG/ directories
+
 v2.4
 - Fix selinux denial
 - Fix bug in cleaner.sh
@@ -48,9 +52,6 @@ v1.7
 v1.6
 - Does not use root to swipe up to home in full gesture
 
-v1.5
-- Removes conflicted overlay PixelConfigOverlayCommon.apk systemlessly if oneui.recents=1
-
 ## Screenshots
 - https://t.me/androidryukimods/1503
 
@@ -68,7 +69,7 @@ v1.5
 - If you are using KernelSU, you need to disable Unmount Modules by Default in KernelSU app settings and install https://github.com/KernelSU-Modules-Repo/meta-overlayfs or https://github.com/KernelSU-Modules-Repo/magic_mount_rs or https://github.com/KernelSU-Modules-Repo/hybrid_mount or https://github.com/maxsteeel/nomount first depending on ROM compatibility
 - Install One UI Core Magisk Module first: https://github.com/reiryuki/One-UI-Core-Magisk-Module
 - If you want to activate the recents provider, READ Optionals bellow!
-- Install this module https://bicolink.com/Gd via Magisk app or Kitsune Mask app or KernelSU app or Apatch app or Recovery if Magisk or Kitsune Mask installed
+- Install this module https://github.com/reiryuki/One-UI-Home-33-Magisk-Module via Magisk app or Kitsune Mask app or KernelSU app or Apatch app or Recovery if Magisk or Kitsune Mask installed
 - Reboot
 - If you are using KernelSU, you need to allow superuser list manually all package name listed in package.txt (enable show system apps) and reboot afterwards
 - Change your default home to this launcher via Settings app (or you can copy the content of default.sh and paste it to Terminal/Termux app. Type su and grant root first!)
