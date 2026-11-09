@@ -5,7 +5,7 @@
 - The MIT license specified here is for the Magisk Module only, not for One UI apps and blobs.
 
 ## Description
-- Home launcher app by Samsung Electronics Co., Ltd. ported and integrated as a Magisk Module for all supported and rooted devices with Magisk
+Home launcher app by Samsung Electronics Co., Ltd. ported and integrated as a Magisk Module for all supported and rooted devices with Magisk
 
 ## Sources
 - https://apkmirror.com com.sec.android.app.launcher (target SDK 33), com.samsung.android.app.galaxyfinder, & com.sec.android.provider.badge by Samsung Electronics Co., Ltd.
@@ -105,6 +105,6 @@ https://t.me/ryukinotes/97
 - https://t.me/androidappsportdevelopment
 
 ## Sponsors and Donation
-- https://t.me/ryukinotes/25
+https://t.me/ryukinotes/25
 
 
