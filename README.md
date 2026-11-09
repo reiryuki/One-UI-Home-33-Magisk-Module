@@ -13,7 +13,7 @@ Home launcher app by Samsung Electronics Co., Ltd. ported and integrated as a Ma
 - libmagiskpolicy.so: Magisk (debug) 31.0 (31000)
 
 ## Screenshots
-- https://t.me/androidryukimods/1503
+https://t.me/androidryukimods/1503
 
 ## Requirements
 - NOT in One UI nor Touchwiz ROM
